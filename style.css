@@ -51,7 +51,6 @@ p {
 .main__container {
     width: 100%;
     height: auto;
-    background-color: blanchedalmond;
     margin-left: 300px;
 }
 
@@ -205,4 +204,38 @@ p {
 
 .feature__comment {
     flex-direction: column;
+}
+
+
+/* 流れ */
+.process {
+    position: relative;
+}
+
+.process__title {
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font-size: 30px;
+}
+
+.p__1-1:before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    border-top: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.p__2-1:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    border-top: 1px solid black;
+    top: 50%;
+    right: 10%;
 }
